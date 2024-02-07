@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b2d393f237.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo4.jpeg" class="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+               <p>Web Developer</p>
+               <h1>Hi,I'm <span>Dhanshree</span> <br>  Talokar From India</h1> 
+
+            </div>
+        </div>
+    </div>
+    <!---------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="formal.jpeg" alt="error">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Repudiandae expedita ab fugit sed consectetur amet,<br> tempora odio maiores voluptate nostrum possimus nulla  <br> magni ipsa iste atque quas quisquam dolorum beatae.</p>
+
+                <div class="tabTitle">
+                    <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certification')">Certification</p>     
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>JAVA-SCRIPT</span></li>
+                        <li><span>REACT.JS</span></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>IT Engineer</span></li>
+                       
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="certification">
+                    <ul>
+                        <li><span>Web Developement</span></li>
+                        <li><span>Java</span></li>
+                        <li><span>Machine Learning</span></li>
+                        <li><span>SQL</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----Services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea tempore aliquam quae voluptatum nostrum, distinctio harum ipsam odio eius possimus. Facere laborum perferendis fugit voluptates aperiam sed consequuntur aliquid!</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-duotone fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea tempore aliquam quae voluptatum nostrum, distinctio harum ipsam odio eius possimus. Facere laborum perferendis fugit voluptates aperiam sed consequuntur aliquid!</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea tempore aliquam quae voluptatum nostrum, distinctio harum ipsam odio eius possimus. Facere laborum perferendis fugit voluptates aperiam sed consequuntur aliquid!</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+</div>
+
+<!-------------------Portfolio----------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="ap.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque neque quibusdam et tenetur natus earum possimus voluptas at qui veniam minima laboriosam voluptatibus ipsam sit tempora dolor maiores, illum corporis?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="ap4.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque neque quibusdam et tenetur natus earum possimus voluptas at qui veniam minima laboriosam voluptatibus ipsam sit tempora dolor maiores, illum corporis?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+    </div>
+</div>
+
+<!--------------------Contact------------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i> 012345689</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Dhanshree's Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Enter name">
+
+                        <input type="Email" name="Email" placeholder="Enter your mail-id">
+
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
